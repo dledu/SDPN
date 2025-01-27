@@ -26,6 +26,6 @@ body.communications h1 {
 	font-size: 0.8em;
 }
 
-a[href$=".pdf"]:before {
+a[title$=".pdf"]:before {
     content: "\f085";
 }
