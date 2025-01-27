@@ -1,0 +1,14 @@
+body {
+	font-family: Roboto, sans-serif;
+}
+.communicationLine {
+	padding: 0.2em;
+	border-bottom: 1px solid #dfdfdf;
+}
+.communicationLink {
+	color: #010101;
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 0.8em;
+}
