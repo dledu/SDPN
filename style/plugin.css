@@ -5,6 +5,7 @@ version: 1.1.0
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
 
 body {
 	font-family: Roboto, sans-serif;
@@ -23,4 +24,8 @@ body.communications h1 {
 	font-style: normal;
 	text-decoration: none;
 	font-size: 0.8em;
+}
+
+a[href$=".pdf"]:before {
+    content: "\f085";
 }
