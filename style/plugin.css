@@ -38,7 +38,7 @@ body.communications h1 {
 	font-size: 0.8em;
 }
 
-a[title$=".pdf"]:before {
+a[text$=".pdf"]:before {
     font: var(--fa-font-solid);
   	-webkit-font-smoothing: antialiased;
 	content: "\f1c1";
