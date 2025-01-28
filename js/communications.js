@@ -9,7 +9,8 @@ function renderFileList(files) {
  feedbacksContainer.innerHTML = "";
 
  files.forEach((fileObject) => {
-   const fileItem = `
+  console.log(fileObject); 
+  const fileItem = `
        <div class="communicationLine">
            <a class="communicationLink" title="${fileObject.name}" target="_blank" href="https://drive.google.com/file/d/${fileObject.id}/view">${fileObject.name}</a><br/>
            <span>${formatDate(
