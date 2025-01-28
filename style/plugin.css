@@ -25,6 +25,8 @@ body {
 
 body.communications h1 {
     display: inline-block;
+	font-size: 1.1em;
+	color: #993366;
 }
 .communicationLine {
 	padding: 0.2em;
