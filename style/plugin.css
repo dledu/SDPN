@@ -39,14 +39,8 @@ body.communications h1 {
 }
 
 a[title$=".pdf"]:before {
-    content: "\f1c1";
-}
-
-a:before {
-	/* Set the font and weight for this icon style */
-	font: var(--fa-font-solid);
-  	/* Make sure icons render pixel-perfect */
+    font: var(--fa-font-solid);
   	-webkit-font-smoothing: antialiased;
-	
 	content: "\f1c1";
+	color: #993366;
 }
