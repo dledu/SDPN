@@ -45,3 +45,66 @@ a[title$=".pdf"]:before {
 	content: "\f1c1\2002";
 	color: #993366;
 }
+
+a[title$=".doc"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c2\2002";
+	color: #993366;
+}
+
+a[title$=".docx"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c2\2002";
+	color: #993366;
+}
+
+a[title$=".xls"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c3\2002";
+	color: #993366;
+}
+
+a[title$=".xlsx"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c3\2002";
+	color: #993366;
+}
+
+a[title$=".ppt"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c4\2002";
+	color: #993366;
+}
+
+a[title$=".pptx"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c4\2002";
+	color: #993366;
+}
+
+a[title$=".jpg"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c5\2002";
+	color: #993366;
+}
+
+a[title$=".jpeg"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c5\2002";
+	color: #993366;
+}
+
+a[title$=".png"]:before {
+    font: var(--fa-font-solid);
+  	-webkit-font-smoothing: antialiased;
+	content: "\f1c5\2002";
+	color: #993366;
+}
