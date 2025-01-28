@@ -33,6 +33,11 @@ body.communications h1 {
 	padding: 0.2em;
 	border-bottom: 1px solid #dfdfdf;
 }
+
+.communicationLine span {
+	font-size: 0.7em;
+	color: #666666;
+}
 .communicationLink {
 	color: #010101;
 	font-weight: 400;
