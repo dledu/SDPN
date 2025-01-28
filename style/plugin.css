@@ -31,5 +31,5 @@ a[title$=".pdf"]:before {
 }
 
 a:before {
-    content: "\f085";
+    content: "\f1c1";
 }
