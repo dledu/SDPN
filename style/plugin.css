@@ -5,7 +5,19 @@ version: 1.1.0
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css');
+/*@import url('https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css');*/
+
+@font-face {
+	font-family: 'Font Awesome 6 Free';
+	font-style: normal;
+	font-weight: 900;
+	font-display: block;
+	src: url("https://cdn.jsdelivr.net/gh/dledu/SDPN/webfonts/fa-solid-900.woff2");
+}
+:root, :host {
+	--fa-style-family-classic: 'Font Awesome 6 Free';
+	--fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free';
+}
 
 body {
 	font-family: Roboto, sans-serif;
@@ -31,5 +43,10 @@ a[title$=".pdf"]:before {
 }
 
 a:before {
-    content: "\f1c1";
+	/* Set the font and weight for this icon style */
+	font: var(--fa-font-solid);
+  	/* Make sure icons render pixel-perfect */
+  	-webkit-font-smoothing: antialiased;
+	
+	content: "\f1c1";
 }
