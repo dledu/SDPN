@@ -27,7 +27,7 @@ body.communications h1 {
 }
 
 a[title$=".pdf"]:before {
-    content: "\f085";
+    content: "\f1c1";
 }
 
 a:before {
