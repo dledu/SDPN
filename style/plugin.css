@@ -38,9 +38,10 @@ body.communications h1 {
 	font-size: 0.8em;
 }
 
-a[text$=".pdf"]:before {
+
+a[href$=".pdf"]:before {
     font: var(--fa-font-solid);
   	-webkit-font-smoothing: antialiased;
-	content: "\f1c1";
+	content: "\f1c1\2002";
 	color: #993366;
 }
