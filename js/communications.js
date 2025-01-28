@@ -48,6 +48,6 @@ function renderFileList_OLD(files) {
 
 function formatDate(timestamp) {
  const date = new Date(timestamp);
- const options = { day: "numeric", month: "short", year: "numeric" };
- return date.toLocaleDateString("en-US", options);
+ const options = { day: "numeric", month: "numeric", year: "numeric" };
+ return date.toLocaleDateString("fr-BE", options);
 }
