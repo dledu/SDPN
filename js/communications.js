@@ -13,10 +13,9 @@ function renderFileList(files) {
   const fileItem = `
        <div class="communicationLine">
            <a class="communicationLink" title="${fileObject.name}" target="_blank" href="https://drive.google.com/file/d/${fileObject.id}/view">${fileObject.name}</a><br/>
-           <span>${formatDate(
+           <span>mis à jour le ${formatDate(
             fileObject.lastUpdated
-          )}</span><br/>
-           <span>${fileObject.lastUpdated}</span>
+          )}</span>
        </div>
    `;
    feedbacksContainer.insertAdjacentHTML("beforeend", fileItem);
