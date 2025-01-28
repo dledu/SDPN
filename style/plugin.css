@@ -39,7 +39,7 @@ body.communications h1 {
 }
 
 
-a[href$=".pdf"]:before {
+a[title$=".pdf"]:before {
     font: var(--fa-font-solid);
   	-webkit-font-smoothing: antialiased;
 	content: "\f1c1\2002";
