@@ -27,6 +27,7 @@ body.communications h1 {
     display: inline-block;
 	font-size: 1.1em;
 	color: #993366;
+	text-transform: uppercase;
 }
 .communicationLine {
 	padding: 0.2em;
